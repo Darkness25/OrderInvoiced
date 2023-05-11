@@ -1,0 +1,10 @@
+variables:
+- group: turbocarulla-orderinvoice
+- ${{ if or(eq(variables['Build.SourceBranchName'], 'develop'), startsWith(variables['Build.SourceBranch'], 'refs/heads/feature')) }}:
+  - group: dev-turbocarulla-orderinvoice
+- ${{ if eq(variables['Build.SourceBranchName'], 'release') }}:
+  - group: qa-turbocarulla-orderinvoice
+- ${{ if eq(variables['Build.SourceBranchName'], 'master') }}:
+  - group: pdn-turbocarulla-orderinvoice
+- name: deleteFolderTest
+  value: true

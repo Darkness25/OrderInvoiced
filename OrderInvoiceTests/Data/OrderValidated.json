@@ -1,0 +1,120 @@
+﻿{
+  "response": true,
+  "message": "success",
+  "messageDetail": "Transaccón exitosa para la orden 60053",
+  "orderData": {
+    "infoGeneral": {
+      "idPedido": "60053",
+      "idOrderPos": "60053",
+      "fechaCompra": "2022-08-16",
+      "horaCompra": "04:11:34",
+      "idDependencia": 4842,
+      "tipoPedido": "01",
+      "estadoPOS": "00",
+      "tipoIncremento": "01",
+      "porcentajeIncremento": "0",
+      "tieneIncremento": "false",
+      "pagoPuntos": "false",
+      "numeroPedidoGlobal": "60053",
+      "puntosMaximosSubpedido": "0",
+      "domicilios": "true",
+      "clavePos": "false",
+      "token": "0",
+      "usoFuturo1": "0",
+      "usoFuturo2": "0",
+      "usoFuturo3": "0"
+    },
+    "infoCliente": {
+      "cedula": "1014255444",
+      "tipoDocumento": "2",
+      "nombre": "Roberto test",
+      "emai l": "CARGOTEST@rappi.com",
+      "telefono": "",
+      "ciudad": "",
+      "direccion": "",
+      "cantidadPuntos": "0",
+      "codigoConvenio": "0",
+      "cedulaConvenio": "0",
+      "codigoDsctoEmpleado": "0",
+      "usoFuturo1": "0",
+      "usoFuturo2": "0"
+    },
+    "infoProducto": [
+      {
+        "producto": {
+          "plu": "1703970",
+          "cantidad": 2.0,
+          "valorVenta": "15700",
+          "porcentajeIncremento": "0",
+          "descripcion": "CERVEZA SIXPACK 1614 Mililitro",
+          "iva": 0,
+          "materialCode": "000000000000003515",
+          "secuencia": 1660890231,
+          "posrnNumero": 1,
+          "sublineaRetail": 95,
+          "signo": "02",
+          "valorDescuento": "0"
+        }
+      },
+      {
+        "producto": {
+          "plu": "1251230",
+          "cantidad": 4.0,
+          "valorVenta": "24500",
+          "porcentajeIncremento": "0",
+          "descripcion": "Ginebra Dry 700 Mililitro",
+          "iva": 5,
+          "materialCode": "000000000000003518",
+          "secuencia": 1660890231,
+          "posrnNumero": 2,
+          "sublineaRetail": 95,
+          "signo": "02",
+          "valorDescuento": "0"
+        }
+      },
+      {
+        "producto": {
+          "plu": "290053",
+          "cantidad": 5.0,
+          "valorVenta": "17200",
+          "porcentajeIncremento": "0",
+          "descripcion": "Huevo 30Und Rojo Aa SANTA REYES 30 und",
+          "iva": 19,
+          "materialCode": "000000000000003517",
+          "secuencia": 1660890232,
+          "posrnNumero": 3,
+          "sublineaRetail": 82,
+          "signo": "02",
+          "valorDescuento": "0"
+        }
+      }
+    ],
+    "infoTransaccion": {
+      "valorTransaccion": 215400,
+      "usuFuturo1": "0",
+      "usuFuturo2": "0"
+    },
+    "infoMedioPago": {
+      "tipoMedioPago": "25",
+      "totalDctoMedioPago": "0",
+      "valorPago": 215400,
+      "autorizacion": "0",
+      "binIndicador": "0",
+      "binNumero": "0",
+      "bolsillo": "0",
+      "naturalezaBolsillo": "",
+      "pagoObligatorio": "false",
+      "equivalentePuntos": "0",
+      "imprimeBono": "false",
+      "descMedioPago": "No aplica"
+    },
+    "infoDevuelta": {
+      "valorDevuelta": "0",
+      "impresionTalon": "false"
+    },
+    "observacion": "",
+    "opcional": "",
+    "id": "60053"
+  },
+  "traceId": null
+}
